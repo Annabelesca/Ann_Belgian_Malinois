@@ -5,7 +5,7 @@
 		<label>Belgian Malinois</label>
 		<description>The Belgian Malinois is a medium-size Belgian shepherd dog that at first glance resembles a German Shepherd Dog. Originally developed in Malines, Belgium, Malinois have a great deal of stamina and truly enjoy working. They are intelligent and very active dogs that excel at many tasks. In addition to herding, they also do well with police work, search and rescue, and in performance events, such as agility.</description>
 		<statBases>
-			<MoveSpeed>5.2</MoveSpeed>
+			<MoveSpeed>6.2</MoveSpeed>
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<MarketValue>400</MarketValue>
 		</statBases>
@@ -16,7 +16,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>8.5</power>
+				<power>10.5</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -34,7 +34,7 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>8.5</power>
+				<power>10.5</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -61,7 +61,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>3.5</power>
+				<power>5</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -91,7 +91,6 @@
 					<li>(1, 1)</li>
 					<li>(2, 1.7)</li>
 					<li>(3, 0.7)</li>
-					<li>(3.5, 0)</li>
 				</points>
 			</litterSizeCurve>
 			<lifeExpectancy>12</lifeExpectancy>
@@ -106,7 +105,7 @@
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.45</minAge>
+					<minAge>0.30</minAge>
 					<soundWounded>Pawn_Dog_Injured</soundWounded>
 					<soundDeath>Pawn_Dog_Death</soundDeath>
 					<soundCall>Pawn_Dog_Call</soundCall>
@@ -129,7 +128,7 @@
 		<defName>Belgian_Malinois</defName>
 		<label>Belgian Malinois</label>
 		<labelPlural>Malinois</labelPlural>
-		<combatPower>145</combatPower>
+		<combatPower>180</combatPower>
 		<ecoSystemWeight>0.50</ecoSystemWeight>
 		<alternateGraphicChance>0.80</alternateGraphicChance>
 		<alternateGraphics>
